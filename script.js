@@ -14,7 +14,7 @@ var specialChar = ["~","!","@","#","$","%","^","&","*","(",")","{","}","[","]","
 
 
 function generatePassword(){
-  var generatedPassword="";
+  var finalPassword="";
 
   var passwordLength = prompt("How many characters would you like your password to contain between 8 to 128?");
 
@@ -23,32 +23,32 @@ function generatePassword(){
     var passwordLength = prompt("How many characters would you like your password to contain between 8 to 128?");
   }
 
-  var checkLowerCase = confirm("Do you wish to add lower case letters?");
-  var checkUpperCase = confirm("Do you wish to add the Upper case letters?");
-  var checkNum= confirm("Do you wish to add numbers?");
-  var checkSpecialChar = confirm("Do you wish to add special characters here?");
+  var confirmLowerCase = confirm("Do you wish to add lower case letters?");
+  var confirmUpperCase = confirm("Do you wish to add the Upper case letters?");
+  var confirmkNum = confirm("Do you wish to add numbers?");
+  var confirmSpecialChar = confirm("Do you wish to add special characters here?");
 
 
   for (let i = 0; i < passwordLength; i++) {
-    if (checkLowerCase === true && generatedPassword.length < passwordLength){
+    if (confirmLowerCase === true && finalPassword.length < passwordLength){
       var position = Math.floor(Math.random() * lowChar.length);
-      generatedPassword = generatedPassword + lowChar[position];
+      finalPassword = finalPassword + lowChar[position];
     }
-    if (checkUpperCase === true && generatedPassword.length < passwordLength){
+    if (confirmUpperCase === true && finalPassword.length < passwordLength){
       var position = Math.floor(Math.random() * upperChar.length);
-      generatedPassword = generatedPassword + upperChar[position];
+      finalPassword = finalPassword + upperChar[position];
     }
-    if (checkNum === true && generatedPassword.length < passwordLength){
+    if (confirmkNum === true && finalPassword.length < passwordLength){
       var position = Math.floor(Math.random() * numbers.length);
-      generatedPassword = generatedPassword + numbers[position];
+      finalPassword = finalPassword + numbers[position];
     }
-    if (checkSpecialChar === true && generatedPassword.length < passwordLength){
+    if (confirmSpecialChar === true && finalPassword.length < passwordLength){
       var position = Math.floor(Math.random() * specialChar.length);
-      generatedPassword = generatedPassword + specialChar[position];
+      finalPassword = finalPassword + specialChar[position];
     }
 
   }
-    return generatedPassword;
+    return finalPassword;
 }
 
 // Write password to the #password input

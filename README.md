@@ -49,7 +49,7 @@ attached.
 ![Password Generator](./Assets/03-javascript-homework-demo.png) "Password Generator")
 
 ## URL of Github Repository
-
+https://najiba-haidari.github.io/week3-challenge-password-generator/
 
 
 ## Credits

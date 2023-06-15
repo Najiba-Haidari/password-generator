@@ -10,6 +10,7 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #a3acb0;
 }
 
 body {
@@ -31,15 +32,16 @@ header {
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 5%);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(210, 11%, 93%);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  
 }
 
 .card-header::after {
@@ -74,18 +76,27 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
-  border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+  background-color: rgb(20, 73, 85);
+  border-radius: 10px;
+  box-shadow: rgba(46, 40, 40, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
   color: hsl(0, 0%, 100%);
-  display: inline-block;
+  display: block;
   font-size: 22px;
   line-height: 22px;
   margin: 16px 16px 16px 20px;
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  width:80%;
+  margin: 7px auto 5px auto;
+}
+.btn:hover {
+  background-color: #5495df;
+}
+
+::selection{
+  background-color: #7bc2f8;
 }
 
 button[disabled] {
@@ -123,6 +134,7 @@ button[disabled] {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
+    margin: 7px auto 5px auto;
   }
 
   #password {

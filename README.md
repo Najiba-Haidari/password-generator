@@ -45,8 +45,7 @@ By using this webpage, you can easily generate random passwords within range of 
 
 ## screenshot of the page
 
-attached. 
-![Password Generator](./Assets/03-javascript-homework-demo.png) "Password Generator")
+![Password Generator](./Assets/Screenshot%202023-06-15%20at%205.56.14%20PM.png)
 
 ## URL of Github Repository
 https://najiba-haidari.github.io/week3-challenge-password-generator/

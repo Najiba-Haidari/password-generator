@@ -1,5 +1,4 @@
-# week3-challenge-password-generator
-Week 3 Challenge for Password Generator
+# password-generator
 
 ## Your Task
 
@@ -48,7 +47,7 @@ By using this webpage, you can easily generate random passwords within range of 
 ![Password Generator](./Assets/Screenshot%202023-06-15%20at%205.56.14%20PM.png)
 
 ## URL of Github Repository
-https://najiba-haidari.github.io/week3-challenge-password-generator/
+https://najiba-haidari.github.io/password-generator/
 
 
 ## Credits
